@@ -6,3 +6,7 @@ repos:
         entry: test.py
         language: script
         verbose: true
+        files: >
+            (?x)^(
+                matching/|
+            )
